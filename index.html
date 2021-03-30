@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Vue.js</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+  </head>
+  <body>
+    <div id="vue-app">
+      <h2>refs</h2>
+      <input type="app.js" ref="input">
+      <button v-on:click="readRefs">Submit</button>
+      <p>your fave food: {{output}}</p>
+
+      <div ref="test">
+        <h1>hello</h1>
+      </div>
+    </div>
+
+    <script src="app.js"> </script>
+  </body>
+</html>

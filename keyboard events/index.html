@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Vue.js</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+  </head>
+  <body>
+    <div id="vue-app">
+    <h1>keyboards events </h1>
+    <label>Name: </label>
+    <input type="text" v-on:keyup.enter="logName" />
+    <label> Age: </label>
+    <input type="text" v-on:keyup.enter="logAge"/>
+    </div>
+    <script src="app.js"> </script>
+  </body>
+</html>
